@@ -8,6 +8,7 @@ h1{
 	border: 1em solid #B33C86;
 	border-radius: 1em;
 	padding: 0.5em;
+	margin: 0;
 }
 
 h3{
@@ -52,6 +53,23 @@ button{
 
 img{
 	width: 150px;
+	box-sizing: border-box;
 	border: 10px solid black;
 	margin: 20px;
+}
+
+.main {
+    border: 10px dotted black;
+    padding: 20px;
+    margin: 0px auto;
+    width: 37.5em;
+}
+
+blockquote {
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+    width: 50%;
 }
