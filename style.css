@@ -1,15 +1,24 @@
 body{
 	color: #fff;
 	font-family: Futura;
-	padding: 20px;
 }
 
-h1{
-	background-color: #A4036F;
+h1{	
+	background-color: black;
+	border: 1em solid #B33C86;
+	border-radius: 1em;
+	padding: 0.5em;
 }
 
 h3{
 	background-color: #048BAB;
+	border: 1em dashed #A4036F;
+}
+
+.images{
+	width: 640px;
+	margin: 2px auto;
+	background-color: #ccc;
 }
 
 #one{
@@ -27,4 +36,22 @@ ul{
 a{
 	background-color: #E6F6C2;
 	color: #000;
+}
+
+p{
+	color: white;
+	background-color: black;
+	border: 5px solid #190E4F;
+	padding: 10px;
+	text-align: center;
+}
+
+button{
+	padding: 5px 30px 5px 30px;
+}
+
+img{
+	width: 150px;
+	border: 10px solid black;
+	margin: 20px;
 }
