@@ -1,0 +1,127 @@
+body{
+	color: #fff;
+	font-family: Futura;
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+@media all and (max-device-width: 480px) {
+    li {
+        display: block;
+        margin: 5px 0px;
+    }
+}
+
+nav{
+	background-color: #E8D7FF;
+	padding: 10px;
+	margin: -8px;
+}
+
+h1{	
+	background-color: black;
+	border: 1em solid #B33C86;
+	border-radius: 1em;
+	padding: 0.5em;
+	margin: 0;
+}
+
+h3{
+	background-color: #048BAB;
+	border: 1em dashed #A4036F;
+}
+
+.images{
+	width: 640px;
+	margin: 2px auto;
+	background-color: #ccc;
+}
+
+#one{
+	background-color: #16DB93;
+}
+
+#two{
+	background-color: #FE5E41;
+}
+
+a{
+	font-weight: 200;
+	text-decoration: none;
+	text-transform: lowercase;
+	font-family: Helvetica;
+	color: #151814;
+}
+
+ul{
+	text-align: center;
+	padding: 0px;
+}
+
+p{
+	color: white;
+	background-color: black;
+	border: 5px solid #190E4F;
+	padding: 10px;
+	text-align: center;
+}
+
+button{
+	padding: 5px 30px 5px 30px;
+}
+
+img{
+	width: 150px;
+	box-sizing: border-box;
+	border: 10px solid black;
+	margin: 20px;
+}
+
+.main {
+    border: 10px dotted black;
+    padding: 20px;
+    margin: 0px auto;
+    width: 37.5em;
+}
+
+blockquote {
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+    width: 50%;
+}
+
+@media screen and (max-device-width: 1024px){
+	p{
+		background-color: #F6F6F6;
+		color: black;
+		text-transform: uppercase;
+	}
+}
+
+/***
+Main rules
+
+color, height, width, device-height, 
+device-width, orientation, media, handheld,
+print, tv, projection, all
+
+On screens with a maximum window width of 1280px
+@media screen and (max-width: 1280px)
+
+On all screen types with a window width of between 1024px and 1280px 
+@media all and (min-width: 1024px) and (max-width: 1280px)
+
+On TVs
+@media tv
+
+On all vertically oriented types of screens
+@media all and (orientation: portrait)
+
+***/
